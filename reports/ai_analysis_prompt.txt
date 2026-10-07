@@ -1,0 +1,35 @@
+
+You are a senior business data analyst.
+
+Analyze the following e-commerce business data.
+
+BUSINESS KPIs:
+{'Total Sales': np.float64(2297200.86), 'Total Profit': np.float64(286397.02), 'Total Orders': 5009, 'Total Customers': 793, 'Profit Margin (%)': np.float64(12.47), 'Average Order Value': np.float64(458.61)}
+
+CATEGORY PERFORMANCE:
+{'Technology': {'Sales': 836154.03, 'Profit': 145454.95, 'Quantity': 6939, 'Orders': 1544, 'Profit_Margin_%': 17.4}, 'Furniture': {'Sales': 741999.8, 'Profit': 18451.27, 'Quantity': 8028, 'Orders': 1764, 'Profit_Margin_%': 2.49}, 'Office Supplies': {'Sales': 719047.03, 'Profit': 122490.8, 'Quantity': 22906, 'Orders': 3742, 'Profit_Margin_%': 17.04}}
+
+REGION PERFORMANCE:
+{'West': {'Sales': 725457.82, 'Profit': 108418.45, 'Orders': 1611, 'Customers': 686, 'Profit_Margin_%': 14.94}, 'East': {'Sales': 678781.24, 'Profit': 91522.78, 'Orders': 1401, 'Customers': 674, 'Profit_Margin_%': 13.48}, 'Central': {'Sales': 501239.89, 'Profit': 39706.36, 'Orders': 1175, 'Customers': 629, 'Profit_Margin_%': 7.92}, 'South': {'Sales': 391721.9, 'Profit': 46749.43, 'Orders': 822, 'Customers': 512, 'Profit_Margin_%': 11.93}}
+
+DISCOUNT ANALYSIS:
+{0.0: {'Sales': 1087908.47, 'Profit': 320987.6, 'Orders': 2644, 'Profit_Margin_%': 29.51}, 0.1: {'Sales': 54369.35, 'Profit': 9029.18, 'Orders': 89, 'Profit_Margin_%': 16.61}, 0.15: {'Sales': 27558.52, 'Profit': 1418.99, 'Orders': 51, 'Profit_Margin_%': 5.15}, 0.2: {'Sales': 764594.37, 'Profit': 90337.31, 'Orders': 2407, 'Profit_Margin_%': 11.82}, 0.3: {'Sales': 103226.66, 'Profit': -10369.28, 'Orders': 211, 'Profit_Margin_%': -10.05}, 0.32: {'Sales': 14493.46, 'Profit': -2391.14, 'Orders': 27, 'Profit_Margin_%': -16.5}, 0.4: {'Sales': 116417.78, 'Profit': -23057.05, 'Orders': 185, 'Profit_Margin_%': -19.81}, 0.45: {'Sales': 5484.97, 'Profit': -2493.11, 'Orders': 10, 'Profit_Margin_%': -45.45}, 0.5: {'Sales': 58918.54, 'Profit': -20506.43, 'Orders': 64, 'Profit_Margin_%': -34.8}, 0.6: {'Sales': 6644.7, 'Profit': -5944.66, 'Orders': 127, 'Profit_Margin_%': -89.46}, 0.7: {'Sales': 40620.28, 'Profit': -40075.36, 'Orders': 344, 'Profit_Margin_%': -98.66}, 0.8: {'Sales': 16963.76, 'Profit': -30539.04, 'Orders': 250, 'Profit_Margin_%': -180.03}}
+
+TOP LOSS-MAKING PRODUCTS:
+{'Cubify CubeX 3D Printer Double Head Print': -8879.97, 'Lexmark MX611dhe Monochrome Laser Printer': -4589.97, 'Cubify CubeX 3D Printer Triple Head Print': -3839.99, 'Chromcraft Bull-Nose Wood Oval Conference Tables & Bases': -2876.12, 'Bush Advantage Collection Racetrack Conference Table': -1934.4, 'GBC DocuBind P400 Electric Binding System': -1878.17, 'Cisco TelePresence System EX90 Videoconferencing Unit': -1811.08, 'Martin Yale Chadless Opener Electric Letter Opener': -1299.18, 'Balt Solid Wood Round Tables': -1201.06, 'BoxOffice By Design Rectangular and Half-Moon Meeting Room Tables': -1148.44}
+
+Your task:
+
+1. Identify the most important business trends.
+2. Identify high-sales but low-profit areas.
+3. Identify potential profitability risks.
+4. Analyze the relationship between discount levels and profit.
+5. Identify products that may require management attention.
+6. Give 5 actionable business recommendations.
+7. Clearly separate:
+   - Observed facts
+   - Possible explanations/hypotheses
+   - Recommended actions
+
+Do not claim causation unless the data supports it.
+Use specific numbers whenever possible.
